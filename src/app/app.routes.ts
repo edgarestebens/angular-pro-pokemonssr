@@ -3,7 +3,8 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
 
   {
-    path: 'pokemons',
+    //path: 'pokemons',
+    path: 'pokemons/page/:page', //se cambia la ruta para poder hacer lo de SSG + Hiybrid
     loadComponent: () => import('./pages/pokemons/pokemons-page.component')
   },
 
