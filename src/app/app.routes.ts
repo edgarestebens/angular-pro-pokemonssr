@@ -32,7 +32,7 @@ export const routes: Routes = [
       //desde aqui se puede injectar un servicio
       //const authService = inject(AuthService)
 
-      return 'pokemons';
+      return 'about';
     }
   }
 
